@@ -16,6 +16,10 @@ table {
   background: #dad8d8;
 }
 
+tr:nth-child(even) {
+    background-color:rgba(182, 187, 187, 0.884);
+}
+
 .header-row {
     background: #34495E;
     color: #fff
