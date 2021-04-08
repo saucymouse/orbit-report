@@ -16,15 +16,13 @@ export class OrbitCountsComponent implements OnInit {
   ngOnInit() {
   }
 
-  countType(type) {
+  countType(type: string): number {
     let total = 0;
-
     for (let satellite of this.satellites) {
       if (satellite.type === type) {
-        total++
+        total++;
       }
     }
-
     return total;
   }
 
